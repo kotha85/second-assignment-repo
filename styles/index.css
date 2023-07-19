@@ -29,13 +29,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    cursor: pointer;
 }
 
 .text {
     margin-right: 20px;
 }
 
-.fa-brands {}
+
 
 .des-icon {
     display: flex;
@@ -144,6 +145,9 @@ li {
     /* margin: 0 auto;   */
     margin-right: 15px;
 }
+.cards{
+    cursor: pointer;
+}
 
 .third-container {
     display: flex;
@@ -180,7 +184,8 @@ li {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     /* margin-left: 20px; */
-    margin-top: 150px auto;
+    margin-top: 150px ;
+    margin-left: 75px;
 
 }
 
@@ -191,8 +196,8 @@ li {
     /* margin-left: 20px;  */
     margin-bottom: 20px;
     padding: 10px 15px;
-    border-radius: 20px;
-    box-shadow: 1px 1px 1px black;
+    border-radius: 25px;
+
 }
 
 .parent-footer {
@@ -238,5 +243,14 @@ li {
 
 .caption {
     margin-top: 20px;
+
+}
+
+
+
+.parent-row-btn:hover {
+    border: #F948B2;
+    border-radius: 25px;
+    color: #F948B2;
 
 }

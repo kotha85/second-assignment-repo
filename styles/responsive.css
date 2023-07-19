@@ -1,0 +1,48 @@
+@media screen and (max-width: 425px) {
+
+    .nav-container,
+    .left-side,
+    .right-side,
+    .des-icon,
+    .banner-sec,
+    .banner-btn,
+    .card-container,
+    .third-container,
+    .parent-row-btn {
+        flex-direction: column;
+    }
+
+    .img-part {
+        margin-left: 300px;
+    }
+    
+    .photo-part {
+        width: 70%;
+        height: 100%;
+        position: relative;
+    }
+    .position {
+        position: absolute;
+        left: 170%;
+        top: 60%;
+    }
+
+    .parent-footer {
+        width: 1390px;
+        height: 879px;
+
+    }
+
+    .footer-item {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* text-align: center; */
+    }
+    .fourth-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .parent-row-btn{
+        margin-bottom: 50px;
+    }
+
+}
